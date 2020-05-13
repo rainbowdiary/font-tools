@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    var a = [1, 2, 3, 4, 5]
+    if (!a) {
+      for (const item of a) {
+        console.log(item);
+        if (item == 2) {
+          break //之后的循环不再继续
+        }
+      }
+    }
+    console.log(a);
+  </script>
+</body>
+
+</html>
